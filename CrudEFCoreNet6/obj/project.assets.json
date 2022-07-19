@@ -1864,19 +1864,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Danie\\.nuget\\packages\\": {}
+    "C:\\Users\\daniel.diazsalamanca\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Danie\\Desktop\\Prog\\BackEnd\\MVC\\CrudEFCoreNet6\\CrudEFCoreNet6\\CrudEFCoreNet6.csproj",
+      "projectUniqueName": "C:\\Users\\daniel.diazsalamanca\\Desktop\\MVC\\Net6\\CrudEFCoreNet6\\CrudEFCoreNet6.csproj",
       "projectName": "CrudEFCoreNet6",
-      "projectPath": "C:\\Users\\Danie\\Desktop\\Prog\\BackEnd\\MVC\\CrudEFCoreNet6\\CrudEFCoreNet6\\CrudEFCoreNet6.csproj",
-      "packagesPath": "C:\\Users\\Danie\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Danie\\Desktop\\Prog\\BackEnd\\MVC\\CrudEFCoreNet6\\CrudEFCoreNet6\\obj\\",
+      "projectPath": "C:\\Users\\daniel.diazsalamanca\\Desktop\\MVC\\Net6\\CrudEFCoreNet6\\CrudEFCoreNet6.csproj",
+      "packagesPath": "C:\\Users\\daniel.diazsalamanca\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\daniel.diazsalamanca\\Desktop\\MVC\\Net6\\CrudEFCoreNet6\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Danie\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\daniel.diazsalamanca\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
