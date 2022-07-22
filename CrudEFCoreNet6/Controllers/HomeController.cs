@@ -40,6 +40,36 @@ namespace CrudEFCoreNet6.Controllers
             return View();
         }
 
+        [HttpGet]
+        public IActionResult Editar(int? id)
+        {
+            if (id == null)
+            {
+                return NotFound();
+            }
+
+            var usuario = _contexto.Usuario.Find(id);
+            if (usuario == null)
+            {
+                return NotFound();
+            }
+
+            return View(usuario);
+        }
+
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public async Task<IActionResult> Editar(Usuario usuario)
+        {
+            if (ModelState.IsValid)
+            {
+                _contexto.Update(usuario);
+                await _contexto.SaveChangesAsync();
+                return RedirectToAction(nameof(Index));
+            }
+            return View(usuario);
+        }
+
         public IActionResult Privacy()
         {
             return View();
